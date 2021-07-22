@@ -1,0 +1,16 @@
+.user {
+  border: 5px solid lightgray;
+  width: fit-content;
+  margin: auto;
+  padding: 5%;
+  background-color: antiquewhite;
+}
+
+.user p {
+  font-weight: bold;
+}
+
+.user img {
+  border: 5px solid white;
+  border-bottom: 20px solid white;
+}

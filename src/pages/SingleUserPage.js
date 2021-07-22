@@ -18,11 +18,7 @@ export default function SingleUserPage() {
     setIsLoading(false);
     console.log(user);
   }, [userId]);
-  function renderUser() {
-    if (isLoading || user === null) {
-      return "Loading...";
-    }
-  }
+
   return (
     <div className="user">
       <p>{isLoading ? "is Loading..." : ""}</p>
